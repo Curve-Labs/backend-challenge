@@ -1,5 +1,6 @@
-<img src="https://github.com/Curve-Labs/backend-challenge/blob/master/pics/curve.png" align="center"  width="200" height="200" />
-
+<p align="center">
+<img src="https://github.com/Curve-Labs/backend-challenge/blob/master/pics/curve.png" width="200" height="200" />
+</p>
 
 # Backend Developer Challenge, Curve Labs
 
