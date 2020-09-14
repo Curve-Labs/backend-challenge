@@ -1,4 +1,5 @@
-![Curve](https://github.com/Curve-Labs/backend-challenge/blob/master/pics/curve.png | width=100)
+<img src="https://github.com/Curve-Labs/backend-challenge/blob/master/pics/curve.png" width="200" height="400" />
+
 
 # Backend Developer Challenge, Curve Labs
 
