@@ -37,7 +37,9 @@ We do not expect you to be able to do everything on your own to complete this ch
 Telegram handles:
 
 👨‍🦲Arseny — @arseny332 on Telegram, arsenyjin on Github
+
 🐱‍💻Olivier — @osarrouy on Telegram and Github
+
 🧙🏻‍♂️Doug — @dkent on Telegram, dkent600 on Github
 
 ## Submission
