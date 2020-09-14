@@ -1,4 +1,4 @@
-<img src="https://github.com/Curve-Labs/backend-challenge/blob/master/pics/curve.png" width="200" height="400" />
+<img src="https://github.com/Curve-Labs/backend-challenge/blob/master/pics/curve.png" width="400" height="400" />
 
 
 # Backend Developer Challenge, Curve Labs
@@ -58,7 +58,7 @@ The first successful candidate to complete will receive a **2000 DAI** bounty fr
 
 - Creation and display of a minimal-viable-proposal UI (a .json configuration, [similar to this](https://github.com/Curve-Labs/necDAO-uniswap/blob/master/deployments/rinkeby/UniswapProxy_Implementation.json)) that appears in [Alchemy](https://alchemy.daostack.io/), DAOstack’s front-end interface for DAOs [Github](https://github.com/daostack/alchemy). The UI does not have to be detailed, but it should be clear that proposals can be submitted to (1) deploy a new pool factory, (2) deploy new pools, and (3) govern the parameters of pools deployed. [Here is an example](https://alchemy.daostack.io/dao/0x519b70055af55a007110b4ff99b0ea33071c720a/scheme/0x252d4c96bc18c6e0670f5cebeda40d6997688223d9498c8a61e0cb45c2c0a3ff/) of a UI for whitelisted tokens on a DEX in Alchemy:
 
-![challengeUI](https://github.com/Curve-Labs/backend-challenge/blob/master/pics/challengeUI.png =200x200)
+![challengeUI](https://github.com/Curve-Labs/backend-challenge/blob/master/pics/challengeUI.png)
 
 - Submission and execution of three proposals in a toy DAO: (1) creation of a new pool factory, (2) deployment of a new smart pool, and (3) adjusting the parameters of the deployed smart pool.
 
