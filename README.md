@@ -26,13 +26,6 @@ commitAddToken(address token, uint balance, uint denormalizedWeight) — DAO can
 - `joinPool(uint poolAmountOut, uint[] maxAmountsIn)` — DAO can add liquidity to the pool
 - `exitPool(uint poolAmountIn, uint[] minAmountsOut)` — DAO can withdraw liquidity to the pool
 
-For `ConfigurableRightsPool.sol`, the DAO should be able to create smart pools using the constructor:
-
-
-- `createPool(uint initialSupply)` — DAO can create a new pool
-- `createPool(uint initialSupply, uint minimumWeightChangeBlockPeriod, uint addTokenTimeLockInBlocks)` — DAO can  specify the block timing parameters (within limits), at pool creation time. They are fixed thereafter.
-
-
 ## Expectations and Assistance
 
 We do not expect you to be able to do everything on your own to complete this challenge. DAOstack is a tricky DAO framework to work with, with many irritating idiosyncrasies for the developer environment. To this end, we have two developers internal to the lab who are available for providing support. We are also happy to spin up a Telegram group chat so you can ask questions in real-time to the team.
