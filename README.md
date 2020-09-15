@@ -10,7 +10,9 @@ Curve Labs, as a design and implementation laboratory, utilizes what we call com
 
 ## Challenge
 
-For the challenge, you will first be required to deploy a [configurable rights pool](https://github.com/balancer-labs/configurable-rights-pool) with `CRPFactory.sol`, and transfer its ownership to a DAO powered by [DAOstack’s Arc1.0](https://github.com/daostack/arc'). From there, you can develop the DAOstack [scheme](https://daostack.github.io/DAOstack-Hackers-Kit/gettingStarted/setupGenericScheme/) that lets the DAO govern the pool. For `ConfigurableRightsPool.sol`, the DAO should be able to govern the following parameters for its pool:
+For the challenge, you will first be required to deploy a [configurable rights pool](https://github.com/balancer-labs/configurable-rights-pool) with `CRPFactory.sol`, and transfer its ownership to a DAO powered by [DAOstack’s Arc1.0](https://github.com/daostack/arc'). From there, you will deploy a DAOstack [scheme](https://daostack.github.io/DAOstack-Hackers-Kit/gettingStarted/setupGenericScheme/) that the DAO can use to govern the pool you created in the first step.  You will then document the steps required to enable users of DAOstack's Alchemy to create proposals against your new scheme.
+
+For `ConfigurableRightsPool.sol`, the DAO should be able to govern the following parameters for its pool:
 
 - `setPublicSwap(bool publicSwap)` — DAO can pause or unpause the pool
 - `setSwapFee(uint swapFee)` — DAO can set the pool’s swap fee 
