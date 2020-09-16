@@ -18,7 +18,7 @@ For `ConfigurableRightsPool.sol`, the DAO should be able to govern the following
 - `setSwapFee(uint swapFee)` — DAO can set the pool’s swap fee 
 upDateWeight(address token, uint newWeight) — DAO can update the weight of a pool token individually.
 - `updateWeightsGradually(uint[] newWeights, uint startBlock, uint endBlock)` — DAO can transform all weights linearly to the new weights specified, setting the start and end blocks for the transformation. 
-commitAddToken(address token, uint balance, uint denormalizedWeight) — DAO can precommit a new token to be applied addTokenTimeLockInBlocks blocks in the future.
+- `commitAddToken(address token, uint balance, uint denormalizedWeight)` — DAO can precommit a new token to be applied addTokenTimeLockInBlocks blocks in the future.
 - `applyAddToken()` — DAO can apply the token committed in the step above, and mint pool shares.
 - `removeToken(address token)` — DAO can remove an existing token and return the balance to the controller.
 - `whitelistLiquidityProvider(address provider)` — DAO can add an address, after which this address can join the pool. 
