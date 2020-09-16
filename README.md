@@ -10,7 +10,7 @@ Curve Labs, as a design and implementation laboratory, utilizes what we call com
 
 ## Challenge
 
-For the challenge, you will first be required to deploy a `CRPFactory` and use it to [configurable rights pool](https://github.com/balancer-labs/configurable-rights-pool) and transfer its ownership to a DAO powered by [DAOstack’s Arc1.0](https://github.com/daostack/arc'). From there, you will deploy a DAOstack [scheme](https://daostack.github.io/DAOstack-Hackers-Kit/gettingStarted/setupGenericScheme/) that the DAO can use to govern the pool you created in the first step.
+For the challenge, you will first be required to deploy a `CRPFactory` and use it to deploy [configurable rights pool](https://github.com/balancer-labs/configurable-rights-pool) and transfer its ownership to a DAO powered by [DAOstack’s Arc1.0](https://github.com/daostack/arc'). From there, you will deploy a DAOstack [scheme](https://daostack.github.io/DAOstack-Hackers-Kit/gettingStarted/setupGenericScheme/) that the DAO can use to govern the pool you created in the first step. Also you will create a  minimal-viable-proposal UI that appears in [Alchemy](https://alchemy.daostack.io/).
 
 For `ConfigurableRightsPool.sol`, the DAO should be able to govern the following parameters for its pool:
 
@@ -39,6 +39,8 @@ Telegram handles:
 🧙🏻‍♂️Doug — @dkent on Telegram, dkent600 on Github
 
 ## Submission
+
+We prepared a folder with helper functions and deployment scripts, you can use it as astarting point or check out [necDAO-uniswap scheme](https://github.com/Curve-Labs/necDAO-uniswap/) as a reference.
 
 Fork the repo and open a new PR when ready, we will review the code and merge the PR from the successful candidate.
 
@@ -86,7 +88,7 @@ The following bonuses are not required but would certainly amaze the team and de
 - The following pool parameters:
 
 	- `string tokenSymbol` - Symbol of the Balancer Pool Token representing this pool
-	- s`tring tokenName` - Name of the Balancer Pool Token representing this pool
+	- `string tokenName` - Name of the Balancer Pool Token representing this pool
 	- `address[] tokens` - Array of 2-8 token addresses. The pool will hold these.
 	- `uint256[] startBalances` - Array of initial balances for the tokens specified above.
 	- `uint256[] startWeights` - Array of initial weights for the tokens specified above.
