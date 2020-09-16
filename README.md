@@ -40,7 +40,7 @@ Telegram handles:
 
 ## Submission
 
-We prepared a folder with helper functions and deployment scripts, you can use it as astarting point or check out [necDAO-uniswap scheme](https://github.com/Curve-Labs/necDAO-uniswap/) as a reference.
+We prepared a [folder](https://github.com/Curve-Labs/backend-challenge/tree/master/balancer-scheme) with helper functions and deployment scripts, you can use it as astarting point or check out [necDAO-uniswap scheme](https://github.com/Curve-Labs/necDAO-uniswap/) as a reference.
 
 Fork the repo and open a new PR when ready, we will review the code and merge the PR from the successful candidate.
 
