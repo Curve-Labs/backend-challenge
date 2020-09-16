@@ -1,0 +1,23 @@
+{
+  "name": "@curvelabs/backend-challenge/balancer-scheme",
+  "version": "1.0.0",
+  "author": "Curve Labs Team",
+  "license": "GPLv3",
+  "homepage": "https://github.com/Curve-Labs/backend-challenge/balancer-scheme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Curve-Labs/backend-challenge.git"
+  },
+  "dependencies": {
+    "@daostack/arc": "0.0.1-rc.41",
+    "openzeppelin-solidity": "2.4.0",
+    "truffle": "^5.1.44"
+  },
+  "devDependencies": {
+    "@daostack/infra": "0.0.1-rc.17",
+    "@daostack/migration": "0.0.1-rc.44-v0",
+    "dotenv": "^8.2.0",
+    "solidity-coverage": "^0.7.9",
+    "web3": "^1.2.11"
+  }
+}
