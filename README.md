@@ -48,7 +48,7 @@ We don't expect the code to have the full test coverage but would like to see th
 
 ## Reward
 
-The first successful candidate to complete will receive a **2000 DAI** bounty from Curve Labs as well as a second-round interview with our team. We are looking to hire a back-end developer beginning November, 2020, but ongoingly seek out collaborators and contributors regardless. Payment of the bounty is contingent on the following conditions being met:
+We will invite the first successful candidate to a second-round interview with our team.
 
 - The creation of a DAOstack DAO-governed Balancer configurable rights pool scheme where parameters are governable by the DAO.
 
@@ -64,7 +64,7 @@ The first successful candidate to complete will receive a **2000 DAI** bounty fr
 - Merger of the aforementioned into the Curve Labs repository under an open-source license.
 
 
-Acceptance of the bounty will require the approval of Curve Labs’ Director, [Pat Rawson](https://github.com/papa-raw). A formal invoice will need to be issued to the Lab, with payment directions provided thereof. Please direct any questions relating to this challenge to contact@curvelabs.eu ➰
+Please direct any questions relating to this challenge to contact@curvelabs.eu ➰
 
 
 ## Bonus
